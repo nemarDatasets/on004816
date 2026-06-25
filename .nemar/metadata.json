@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG-attention-rsvp-exp1",
+  "description": "EEG dataset from Experiment 1 of Grootswagers et al. (2021) investigating neural dynamics of task-relevant information prioritization. Participants performed a rapid serial visual presentation (RSVP) task with small letters presented on large objects while EEG was recorded. This dataset provides raw electrophysiological recordings to examine how the brain prioritizes behaviorally relevant stimuli during visual attention tasks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -38,12 +39,27 @@
       ]
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004816.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "rapid serial visual presentation"
+    },
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "task-relevant information"
+    },
+    {
+      "term": "neural dynamics"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.51628/001c.21174",
       "identifier_type": "DOI",
@@ -63,15 +79,20 @@
       "identifier": "10.51628/001c.19129",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004816.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "25.0 GB (140 files)"
   ],
   "formats": [
     ".csv",
@@ -83,44 +104,8 @@
     ".set",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains electroencephalography (EEG) recordings from human subjects performing a rapid serial visual presentation (RSVP) task designed to investigate neural mechanisms of attentional prioritization. Participants viewed sequences of visual stimuli (small letters presented on big objects) and were instructed to identify task-relevant targets among distractors. The experiment examines how the brain dynamically prioritizes processing of behaviorally important information in visual attention tasks.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Electroencephalography"
-    },
-    {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
-    },
-    {
-      "term": "Attentional Prioritization"
-    },
-    {
-      "term": "Visual Attention"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "RSVP"
-    },
-    {
-      "term": "rapid serial visual presentation"
-    },
-    {
-      "term": "task-relevant information"
-    },
-    {
-      "term": "neural dynamics"
-    }
-  ],
-  "source_hash": "7fadf715f793abbb5b6d2600a7945e368dd0303911afc24cd965ec21c656e93f"
+  "source_hash": "c1c74f9715d9da2b7f393389789188573ac9f4b2bcef4189f929189c4543d568"
 }
