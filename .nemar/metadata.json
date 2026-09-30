@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-attention-rsvp-exp1",
-  "description": "EEG dataset from Experiment 1 of Grootswagers et al. (2021) investigating neural dynamics of task-relevant information prioritization. Participants performed a rapid serial visual presentation (RSVP) task with small letters presented on large objects while EEG was recorded. This dataset provides raw electrophysiological recordings to examine how the brain prioritizes behaviorally relevant stimuli during visual attention tasks.",
+  "description": "EEG recordings from experiment 1 of a study on how the brain prioritises task-relevant information. Participants viewed rapid serial visual presentation (RSVP) streams in which small letters were overlaid on large objects. The dataset supports analysis of the temporal dynamics of attention-dependent neural representations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -44,34 +44,28 @@
       "term": "EEG"
     },
     {
-      "term": "attention"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "visual perception"
-    },
-    {
       "term": "task-relevant information"
     },
     {
-      "term": "neural dynamics"
+      "term": "object representation"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.51628/001c.21174",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004816",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004816",
+      "identifier": "https://github.com/nemarDatasets/on004816",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -84,6 +78,11 @@
       "identifier": "10.18112/openneuro.ds004816.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004816",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -92,7 +91,7 @@
     "eeg"
   ],
   "sizes": [
-    "25.0 GB (140 files)"
+    "23.30 GB (140 files)"
   ],
   "formats": [
     ".csv",
