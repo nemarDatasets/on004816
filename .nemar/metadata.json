@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG-attention-rsvp-exp1",
-  "description": "EEG recordings from experiment 1 of a study on how the brain prioritises task-relevant information. Participants viewed rapid serial visual presentation (RSVP) streams in which small letters were overlaid on large objects. The dataset supports analysis of the temporal dynamics of attention-dependent neural representations.",
+  "description": "Raw EEG recordings from Experiment 1 of Grootswagers et al. (2021), a rapid serial visual presentation (RSVP) study of how task-relevant information is prioritised in the brain. In this experiment, participants viewed small letters presented on large object images. The dataset supports time-resolved analyses of neural dynamics under different attentional task demands.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -44,18 +44,19 @@
       "term": "EEG"
     },
     {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "attention"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
+      "term": "object recognition"
+    },
+    {
       "term": "task-relevant information"
     },
     {
-      "term": "object representation"
+      "term": "visual perception"
     }
   ],
   "related_identifiers": [
@@ -75,14 +76,14 @@
       "relation_type": "References"
     },
     {
-      "identifier": "10.18112/openneuro.ds004816.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "https://nemar.org/dataset/on004816",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004816.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
@@ -106,5 +107,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "c1c74f9715d9da2b7f393389789188573ac9f4b2bcef4189f929189c4543d568"
+  "source_hash": "ddaf244149d63920df567182d853940a39d44a1b744c9145d07bc71d210922f0"
 }
